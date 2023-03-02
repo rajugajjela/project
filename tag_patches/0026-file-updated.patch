@@ -1,0 +1,1091 @@
+From cf48a972bb0fb02074af657ad3150edae93c7a83 Mon Sep 17 00:00:00 2001
+From: rajugajjela <rgajjela@innominds.com>
+Date: Mon, 12 Sep 2022 16:10:12 +0530
+Subject: [PATCH 26/28] file updated
+
+---
+ .prime.py.swp       | Bin 0 -> 12288 bytes
+ append.py           |   7 ++
+ arithematic.py      |  10 +++
+ dictionary_total.py |  51 +++++++++++
+ extended.py         |   9 ++
+ file_handling.py    |  38 ++++++++
+ forloop.py          |  13 +++
+ hello.py            |   4 +
+ ifcondition.py      |   9 ++
+ insert.py           |   7 ++
+ join_list.py        |   9 ++
+ list.py             |   8 ++
+ list_total.py       | 105 ++++++++++++++++++++++
+ loops.py            | 151 +++++++++++++++++++++++++++++++
+ prime.py            |  13 +++
+ python_functions.py |  30 +++++++
+ raj.txt             |   1 +
+ remove.py           |  10 +++
+ reverse.py          |  11 +++
+ scripts/nani.txt    |   3 +
+ second.txt          |   1 +
+ sets_total.py       | 122 +++++++++++++++++++++++++
+ sort.py             |  12 +++
+ sort_lower.py       |  12 +++
+ tuples_total.py     | 210 ++++++++++++++++++++++++++++++++++++++++++++
+ whileloop.py        |   7 ++
+ 26 files changed, 853 insertions(+)
+ create mode 100644 .prime.py.swp
+ create mode 100755 append.py
+ create mode 100755 arithematic.py
+ create mode 100755 dictionary_total.py
+ create mode 100755 extended.py
+ create mode 100644 file_handling.py
+ create mode 100755 forloop.py
+ create mode 100755 hello.py
+ create mode 100755 ifcondition.py
+ create mode 100755 insert.py
+ create mode 100755 join_list.py
+ create mode 100755 list.py
+ create mode 100755 list_total.py
+ create mode 100644 loops.py
+ create mode 100755 prime.py
+ create mode 100644 python_functions.py
+ create mode 100644 raj.txt
+ create mode 100755 remove.py
+ create mode 100644 reverse.py
+ create mode 100644 scripts/nani.txt
+ create mode 100644 second.txt
+ create mode 100755 sets_total.py
+ create mode 100755 sort.py
+ create mode 100755 sort_lower.py
+ create mode 100755 tuples_total.py
+ create mode 100755 whileloop.py
+
+diff --git a/.prime.py.swp b/.prime.py.swp
+new file mode 100644
+index 0000000000000000000000000000000000000000..fdcfaced821b41a79281875d6e850145adbb195b
+GIT binary patch
+literal 12288
+zcmeI&O-{l<6bJB!d(`L!9vBmdl(vu{VtN1)NsJL!Zdxr^LO(K;1sh#*13iTsy@Y3Q
+zrAy;VPvDyh3qQhw9m#)^e<w4YzD|A#i-z&6vv!A@Rhy)35<SH4-eJB*j~0>YyMuv0
+zboH%8t=%zBPK~2u<Djv>Xx;U^pczg$QE^|n;mAxT=~Wz=i3&o$noJfIz&!{+U^#(t
+z+B2H@ZoOv9FPmtmSm5og?sB#86a*ju0SG_<0uX=z1R$`I0%?+?8`=5VZ1?N4KKHAi
+z4bedW0uX=z1Rwwb2tWV=5P$##Ah3c0?j_N)eDqg0Wb^X>|NQ&^Q^p^XH_5ByMe-!M
+zm)uEiB~ytfIhWKWS&bDmz?LBZ0SG_<0uX=z1Rwwb2tWV=KLuDC>5H6JkJ3^!4l7&?
+zMjXW{v#V!ApJmqbRk2L|aOAiCTmE-x(BslYJdRSwsg+xlJ*3~GTQ<*oj!oH6E_$`R
+wg?Bk9v*WPUqF$^x;2>h<Mt#3zSM)Y?rSGa1>Gcjb<m7L`^a43=pB=lWFZgg|)Bpeg
+
+literal 0
+HcmV?d00001
+
+diff --git a/append.py b/append.py
+new file mode 100755
+index 0000000..c5f50a3
+--- /dev/null
++++ b/append.py
+@@ -0,0 +1,7 @@
++#!/bin/python
++
++list =['raju', 'nani','sravs']
++
++list.append('rani')
++
++print(list)
+\ No newline at end of file
+diff --git a/arithematic.py b/arithematic.py
+new file mode 100755
+index 0000000..a4bb4da
+--- /dev/null
++++ b/arithematic.py
+@@ -0,0 +1,10 @@
++#!/bin/python
++
++a=10
++b=20
++
++print (a+b)
++print (a-b)
++print (a/b)
++print (a*b)
++print (a%b)
+diff --git a/dictionary_total.py b/dictionary_total.py
+new file mode 100755
+index 0000000..b06bead
+--- /dev/null
++++ b/dictionary_total.py
+@@ -0,0 +1,51 @@
++#!/bin/bash
++print("printing the dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++print(dic)
++print("Type of dictionary:",type(dic))
++
++print("printing the dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++print(dic['NAME'])
++
++print("printing the dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++x=dic.get('AGE')
++print(x)
++
++print("printing the keys in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++x=dic.keys()
++print(x)
++
++print("printing the values in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++x=dic.values()
++print(x)
++
++print("printing the items in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++x=dic.items()
++print(x)
++
++print("changing  the values in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++dic['NAME']='Rani'
++dic['AGE']='25'
++dic['GENDER']='Female'
++print(dic)
++
++print("updating operation in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Male'}
++dic.update({"NAME":"Vamshi"})
++print(dic)
++
++print("pop operation in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Make'}
++dic.pop('NAME')
++print(dic)
++ 
++print("clear operation in dictionary")
++dic={'NAME':'Raju','AGE':'20','GENDER':'Make'}
++dic.clear()
++print(dic)
+diff --git a/extended.py b/extended.py
+new file mode 100755
+index 0000000..9e278a4
+--- /dev/null
++++ b/extended.py
+@@ -0,0 +1,9 @@
++#!/bin python
++
++list1 = [2, 3, 5]
++
++list2 = [1, 4, 7]
++
++list1.extend(list2)
++
++print('List after extend():',list1)
+diff --git a/file_handling.py b/file_handling.py
+new file mode 100644
+index 0000000..ed2f750
+--- /dev/null
++++ b/file_handling.py
+@@ -0,0 +1,38 @@
++#!/bin/bash
++
++file = open("raj.txt", "r")
++print(file.read())
++print()
++
++file = open("raj.txt", "r")
++print(file.read(1))
++print()
++
++file = open("raj.txt", "r")
++print(file.readlines())
++print()
++
++file = open("raj.txt", "r")
++for x in file:
++  print(x)
++
++file = open("raj.txt", "r")
++print(file.readlines())
++file.close()
++print()
++
++file = open("raj.txt", "a")
++file.write("I studied in sree chaitanya college of engineering.")
++file.close()
++
++file = open("raj.txt", "w")
++file.write("I studied in sree chaitanya college of engineering.in karimnagar.")
++file.close()
++
++firstfile=open('nani.txt','r')  
++secondfile=open('second.txt','w') 
++#read content from first file
++for line in firstfile:
++               
++ # write content to second file
++ secondfile.write(line)
+\ No newline at end of file
+diff --git a/forloop.py b/forloop.py
+new file mode 100755
+index 0000000..c49a205
+--- /dev/null
++++ b/forloop.py
+@@ -0,0 +1,13 @@
++#!/bin/python
++
++names=['raj','siddu','ammu']
++
++print(len(names))
++
++for i in range(len(names)):
++    print(names[i])
++
++
++fruits = ["apple", "banana", "cherry","orange"]
++for x in fruits:
++  print(x)
+diff --git a/hello.py b/hello.py
+new file mode 100755
+index 0000000..e3d1ca3
+--- /dev/null
++++ b/hello.py
+@@ -0,0 +1,4 @@
++#!/bin/python
++
++print ("hello, python")
++
+diff --git a/ifcondition.py b/ifcondition.py
+new file mode 100755
+index 0000000..e6703cf
+--- /dev/null
++++ b/ifcondition.py
+@@ -0,0 +1,9 @@
++#!/bin/python
++
++a=10
++b=20
++
++if(a>b):
++   print("a is bigger then b")
++else:
++   print("b is bigger than a")
+diff --git a/insert.py b/insert.py
+new file mode 100755
+index 0000000..dac4e33
+--- /dev/null
++++ b/insert.py
+@@ -0,0 +1,7 @@
++#!/bin/python
++
++list = ['a', 'b', 'c', 'd', 'f']
++
++list.insert(4, 'e')
++
++print('List:', list)
+diff --git a/join_list.py b/join_list.py
+new file mode 100755
+index 0000000..bc1e687
+--- /dev/null
++++ b/join_list.py
+@@ -0,0 +1,9 @@
++#!/bin/python
++
++list1=['raju','nani','siddu','ammu']
++
++list2=['1','2','3','5','4']
++
++list3=list1+list2
++
++print(list3)
+\ No newline at end of file
+diff --git a/list.py b/list.py
+new file mode 100755
+index 0000000..9305cf6
+--- /dev/null
++++ b/list.py
+@@ -0,0 +1,8 @@
++#!/bin/python
++list = [ 'nani', 555 , 5.8, 'raju', 70.2 ]
++         
++print (list[0])       
++print (list[1:3])      
++print (list[2:])
++print (list[:3])
++print (list[2:4])
+diff --git a/list_total.py b/list_total.py
+new file mode 100755
+index 0000000..f4b18af
+--- /dev/null
++++ b/list_total.py
+@@ -0,0 +1,105 @@
++#!/bin/python
++
++print("join the lists:")
++print("before join the list:")
++list1=['raju','nani','siddu','ammu']
++
++list2=['1','2','3','5','4']
++
++list3=list1+list2
++
++print("Type of list:",type(list1))
++print("list1:",list1)
++print("list2:",list2)
++
++print("after join the lists")
++print("list3:",list3)
++print("\n")
++
++
++print("pop operation in list:")
++list1=['raju','nani','siddu','ammu']
++
++list2=['1','2','3','5','4']
++
++print("before pop operation")
++print("list1:",list1)
++print("list2:",list2)
++
++print("after pop operation")
++list1.pop(0)
++print("list1:",list1)
++
++list2.pop(3)
++print("list2:",list2)
++print("\n")
++
++print("remove operation in list:")
++list1=['raju','nani','siddu','ammu']
++list2=['1','2','3','5','4']
++
++print("before remove operation")
++print("list1:",list1)
++print("list2:",list2)
++
++print("after remove operation")
++list1.remove('siddu')
++print(list1)
++
++list2.remove('5')
++print(list2)
++print("\n")
++
++print("reverse operation in list:")
++list1=['Aa','Ee','Ff','Dd','Bb','Cc']
++
++list2=['1','3','4','2','6','5']
++
++print("before reverse operation")
++print("list1:",list1)
++print("list2:",list2)
++
++print("after reverse operation")
++
++list1.reverse()
++print(list1)
++
++list2.reverse()
++print(list2)
++print("\n")
++
++print("sort operation in lists:")
++list1=['Aa','Ee','Ff','Dd','Bb','Cc']
++
++list2=['1','3','4','2','6','5']
++
++print("before sort operation")
++print("list1:",list1)
++print("list2:",list2)
++
++print("after sort operation")
++
++list1.sort()
++print(list1)
++
++list2.sort()
++print(list2)
++print("\n")
++
++
++print("sort.lower operation in lists:")
++list1=['skd','ksmd','dij','2','Dd','1','B','4','dj','3']
++
++list2=['1','3','4','2','6','5']
++
++print("before sort.lower operation")
++print("list1:",list1)
++print("list2:",list2)
++
++print("after sort.lower operation")
++
++list1.sort(key=str.lower)
++print(list1)
++
++list2.sort(key=str.lower)
++print(list2)
+diff --git a/loops.py b/loops.py
+new file mode 100644
+index 0000000..ba94948
+--- /dev/null
++++ b/loops.py
+@@ -0,0 +1,151 @@
++#!/bin/bash
++
++a=100
++b=200
++print("a:",a)
++print("b:",b)
++if a<b:
++  print("a is less than b")
++print("\n")
++
++x=100
++y=300
++print("x:",x)
++print("y:",y)
++if x<y:
++  print("x is less than y")
++else:
++ print("x is greater than y")
++print("\n")
++
++x=500
++y=100
++print("x:",x)
++print("y:",y)
++if x<y:
++    print("x is less than y")
++elif x>y:
++    print("x is greater than y")
++print("\n")
++
++x=500
++y=500
++print("x:",x)
++print("y:",y)
++if x<y:
++    print("x is less than y")
++elif x==y:
++    print("x is equal to y")
++else :   
++    print("x is greater than y")
++print("\n")
++
++x=100
++y=200
++print("x:",x)
++print("y:",y)
++if x<y or x>y:
++    print("x is less than y") 
++print("\n")
++
++x=100
++y=100
++print("x:",x)
++print("y:",y)
++if x<y and x>y:
++    print("x is less than y") 
++else:
++    print("x is equal to y")    
++print("\n")
++
++x = 50
++if x > 10:
++  print("x value is above 10")
++  if x > 20:
++    print("x is above 20")
++  else:
++    print("x is above 30")
++print("\n")
++
++a=1
++while a<10:
++    print("a:",a)
++    a=a+1
++print("\n")
++
++print("break statement used in while loop")
++a=10
++while a<20:
++    print(a)
++    if a==15:
++        break
++    a=a+1
++print("\n")
++
++print("continue statement used in while loop")
++a=10
++while a<20:
++    a=a+1
++    if a==15:
++        continue
++    print(a)
++print("\n")
++
++
++print("while loop using list:")
++print("printing sets before loop")
++list=['raju','nani','siddu','ammu']
++print(list)
++print("printing list after loop")
++i=0
++while i<len(list):
++    print(list[i])
++    i=i+1
++print("\n")
++
++print("while loop using sets:")
++print("printing sets before loop")
++sets=('1','2','3','4')
++print(sets)
++print("printing sets after loop")
++i=0
++while i<len(sets):
++    print(sets[i])
++    i=i+1
++print("\n")
++
++print("while loop using tuples:")
++print("printing sets before loop")
++tuple=('raju','nani','siddu','ammu')
++print(tuple)
++print("printing tuple after loop")
++i=0
++while i<len(tuple):
++    print(tuple[i])
++    i=i+1
++print("\n")
++
++
++print("for loop using tuples:")
++tuple = ("A", "B", "C","D","E")
++for x in tuple:
++  print(x)
++print("\n")
++
++print("for loop using sets:")
++print("printing sets before loop")
++sets={'raju','nani','siddu','ammu'}
++print(sets)
++print("printing sets after loop")
++for x in sets :
++     print(x)
++print("\n")
++
++print("for loop using list:")
++print("printing sets before loop")
++list=['raju','nani','siddu','ammu']
++print(list)
++print("printing list after loop")
++for x in list :
++     print(x)
++print("\n")
+\ No newline at end of file
+diff --git a/prime.py b/prime.py
+new file mode 100755
+index 0000000..c3f3e6d
+--- /dev/null
++++ b/prime.py
+@@ -0,0 +1,13 @@
++#!/bin/python
++
++num =int(input("Enter a number:5"))
++count=0
++
++for i in range(2, num):
++        if (num % i) == 0:
++            print(num, "is not a prime number")
++            break
++
++else:
++    print(num, "is  a prime number")
++
+diff --git a/python_functions.py b/python_functions.py
+new file mode 100644
+index 0000000..a22f21a
+--- /dev/null
++++ b/python_functions.py
+@@ -0,0 +1,30 @@
++#!/bin/bash
++
++def function():
++    print("first function in python")
++
++function()
++
++
++def function(a):
++  print("\n",a)
++
++a=10
++function(a)
++
++print("different arithmetic operation by using functions")
++
++def operations(a,b):
++    print("addition:",a+b)
++    print("subtraction:",a-b)
++    print("multiplication:",a*b)
++    print("divion:",a/b)
++
++
++a=10
++b=20
++operations(a,b)
++
++
++
++
+diff --git a/raj.txt b/raj.txt
+new file mode 100644
+index 0000000..89970b8
+--- /dev/null
++++ b/raj.txt
+@@ -0,0 +1 @@
++I studied in sree chaitanya college of engineering.in karimnagar.
+\ No newline at end of file
+diff --git a/remove.py b/remove.py
+new file mode 100755
+index 0000000..a898dfa
+--- /dev/null
++++ b/remove.py
+@@ -0,0 +1,10 @@
++#!/bin/python
++
++list1=['raju','nani','siddu','ammu']
++list2=['1','2','3','5','4']
++
++list1.remove('siddu')
++print(list1)
++
++list2.remove('5')
++print(list2)
+diff --git a/reverse.py b/reverse.py
+new file mode 100644
+index 0000000..3f0e63c
+--- /dev/null
++++ b/reverse.py
+@@ -0,0 +1,11 @@
++#!/bin/python
++
++list1=['Aa','Ee','Ff','Dd','Bb','Cc']
++
++list2=['1','3','4','2','6','5']
++
++list1.reverse()
++print(list1)
++
++list2.reverse()
++print(list2)
+\ No newline at end of file
+diff --git a/scripts/nani.txt b/scripts/nani.txt
+new file mode 100644
+index 0000000..ec4239e
+--- /dev/null
++++ b/scripts/nani.txt
+@@ -0,0 +1,3 @@
++hiii nani
++hloo "how are you"
++i am fine
+diff --git a/second.txt b/second.txt
+new file mode 100644
+index 0000000..48505fb
+--- /dev/null
++++ b/second.txt
+@@ -0,0 +1 @@
++hiii nani
+\ No newline at end of file
+diff --git a/sets_total.py b/sets_total.py
+new file mode 100755
+index 0000000..0ff514b
+--- /dev/null
++++ b/sets_total.py
+@@ -0,0 +1,122 @@
++#!/bin/python
++
++print("printing sets before operation")
++sets={'raju','nani','siddu','ammu'}
++print("length of sets:",len(sets))
++print("Type of sets:",type(sets))
++print(sets)
++for x in sets :
++     print(x)
++print("\n")
++
++print("add operation in sets")
++sets={'raju','nani','siddu','ammu'}
++
++print("before add operation:")
++print(sets)
++sets.update("soumya")
++print("after add operation:")
++print(sets)
++print("\n")
++
++
++print("update operation in sets")
++print("before update operation:")
++sets={'1','2','3','5','4'}
++print(sets)
++print("after update operation:")
++sets.update("7")
++print(sets)
++print("\n")
++
++
++print("remove operation in sets")
++sets={'raju','nani','siddu','ammu'}
++print("before remove operation:")
++print(sets)
++sets.remove("siddu")
++print("after remove operation:")
++print(sets)
++print("\n")
++
++print("discard operation in sets")
++sets={'raju','nani','siddu','ammu'}
++print("before discard operation:")
++print(sets)
++sets.remove("nani")
++print("after discard operation:")
++print(sets)
++print("\n")
++
++print("pop operation in sets")
++sets={'raju','nani','siddu','ammu'}
++print("before pop operation:")
++print(sets)
++sets.pop()
++print("after pop operation:")
++print(sets)
++print("\n")
++
++print("clear operation in sets")
++sets={'raju','nani','siddu','ammu'}
++print("before clear operation:")
++print(sets)
++sets.clear()
++print("after clear operation:")
++print(sets)
++print("\n")
++
++print("join operation in sets")
++set1={'raju','nani','siddu','ammu'}
++set2={'1','2','3','5','4'}
++print("before join operation:")
++print(set1)
++print(set2)
++set3=set1.union(set2)
++print("after join operation:")
++print(set3)
++print("\n")
++
++print("join operation in sets")
++set1={'raju','nani','siddu','ammu'}
++set2={'1','2','3','5','4'}
++print("before join operation:")
++print(set1)
++print(set2)
++set3=set1.union(set2)
++print("after join operation:")
++print(set3)
++print("\n")
++
++print("update operation in sets")
++set1={'raju','nani','siddu','ammu'}
++set2={'1','2','3','5','4'}
++print("before update operation:")
++print(set1)
++print(set2)
++set1.update(set2)
++print("after update operation:")
++print(set1)
++print("\n")
++
++print("intersection_update operation in sets")
++set1={'raju','nani','siddu','ammu'}
++set2={'vamshi','sai','raju','anil'}
++print("before intersection_update operation:")
++print(set1)
++print(set2)
++set1.intersection_update(set2)
++print("after intersection_update operation:")
++print(set1)
++print("\n")
++
++print("symmetric_difference_update operation in sets")
++set1={'raju','nani','siddu','ammu'}
++set2={'vamshi','sai','raju','anil'}
++print("before symmetric_difference_update operation:")
++print(set1)
++print(set2)
++set1.symmetric_difference_update(set2)
++print("after symmetric_difference_update operation:")
++print(set1)
++print("\n")
+diff --git a/sort.py b/sort.py
+new file mode 100755
+index 0000000..b10c2fd
+--- /dev/null
++++ b/sort.py
+@@ -0,0 +1,12 @@
++#!/bin/python
++
++list1=['Aa','Ee','Ff','Dd','Bb','Cc']
++
++list2=['1','3','4','2','6','5']
++
++list1.sort()
++print(list1)
++
++list2.sort()
++print(list2)
++
+diff --git a/sort_lower.py b/sort_lower.py
+new file mode 100755
+index 0000000..d560d8e
+--- /dev/null
++++ b/sort_lower.py
+@@ -0,0 +1,12 @@
++#!/bin/python
++
++list1=['skd','ksmd','dij','2','Dd','1','B','4','dj','3']
++
++list2=['1','3','4','2','6','5']
++
++list1.sort(key=str.lower)
++print(list1)
++
++list2.sort(key=str.lower)
++print(list2)
++
+diff --git a/tuples_total.py b/tuples_total.py
+new file mode 100755
+index 0000000..680ba57
+--- /dev/null
++++ b/tuples_total.py
+@@ -0,0 +1,210 @@
++#!/bin/python
++
++
++print("join the tuples:")
++print("before join the tuples:")
++tuples1=('raju','nani','siddu','ammu')
++
++tuples2=('1','2','3','5','4')
++
++tuples3=tuples1+tuples2
++
++print("Type of tuples:",type(tuples1))
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++print("after join the tuples")
++print("tuples3:",tuples3)
++print("\n")
++
++
++print("inserting operation by using tuples")
++
++tuple1= ('a', 'b', 'c', 'd', 'f')
++print("brefore inserting to the tuple:",tuple1)
++x=list(tuple1)
++x.insert(4, 'e')
++x=tuple(x)
++
++print('tuple after inserting:',x)
++print("\n")
++
++
++print("extend operation by using tuples:")
++tuple1 = (2, 3, 5)
++
++tuple2 = (1, 4, 7)
++print("before extend tuple1:",tuple1)
++print("before extend tuple2:",tuple2)
++
++x=list(tuple1)
++y=list(tuple2)
++
++x.extend(y)
++x=tuple(x)
++print('tuples after extend:',x)
++print("\n")
++
++
++print("append operation using tuples:")
++
++tuples =('raju', 'nani','sravs')
++
++print("before append:",tuples)
++x=list(tuples)
++
++x.append('rani')
++x=tuple(x)
++print("after append:",x)
++print("\n")
++
++
++print("pop operation in tuples:")
++tuples1=('raju','nani','siddu','ammu')
++
++tuples2=('1','2','3','5','4')
++
++print("before pop operation")
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++x=list(tuples1)
++y=list(tuples2)
++print("after pop operation")
++x.pop(0)
++x=tuple(x)
++print("tuples1:",x)
++
++y.pop(3)
++y=tuple(y)
++print("tuples2:",y)
++print("\n")
++
++
++print("remove operation in tuples:")
++tuples1=('raju','nani','siddu','ammu')
++tuples2=('1','2','3','5','4')
++
++print("before remove operation")
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++x=list(tuples1)
++y=list(tuples2)
++print("after remove operation")
++x.remove('siddu')
++x=tuple(x)
++print(x)
++
++y.remove('5')
++y=tuple(y)
++print(y)
++print("\n")
++
++
++print("reverse operation in tuples:")
++tuples1=('Aa','Ee','Ff','Dd','Bb','Cc')
++
++tuples2=('1','3','4','2','6','5')
++
++print("before reverse operation")
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++print("after reverse operation")
++
++x=list(tuples1)
++y=list(tuples2)
++x.reverse()
++x=tuple(x)
++print(x)
++
++y.reverse()
++y=tuple(y)
++print(y)
++print("\n")
++
++print("sort operation in tuples:")
++tuples1=('Aa','Ee','Ff','Dd','Bb','Cc')
++
++tuples2=('1','3','4','2','6','5')
++
++print("before sort operation")
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++print("after sort operation")
++
++x=list(tuples1)
++y=list(tuples2)
++x.sort()
++x=tuple(x)
++print(x)
++
++y.sort()
++y=tuple(y)
++print(y)
++print("\n")
++
++
++print("sort.lower operation in tuples:")
++tuples1=('skd','ksmd','dij','2','Dd','1','B','4','dj','3')
++
++tuples2=('1','3','4','2','6','5')
++
++print("before sort.lower operation")
++print("tuples1:",tuples1)
++print("tuples2:",tuples2)
++
++print("after sort.lower operation")
++
++x=list(tuples1)
++x.sort(key=str.lower)
++x=tuple(x)
++print(x)
++
++y=list(tuples2)
++y.sort(key=str.lower)
++y=tuple(y)
++print(y)
++print("\n")
++
++print("for loop using tuples:")
++tuple = ("A", "B", "C","D","E")
++for x in tuple:
++  print(x)
++print("\n")
++
++
++print("while loop using tuples:")
++tuple = ("1", "2", "3","4","5","6","7","8","9")
++i = 0
++while i < len(tuple):
++  print(tuple[i])
++  i = i + 1
++print("\n")
++
++print("count operations using tuples")
++tuple = (1, 3,4, 7,4, 8, 7,4 ,5, 4, 6, 8, 5)
++
++x = tuple.count(4)
++
++print(x)
++print("\n")
++
++ 
++print("printing the index number in tuples")
++tuple = (1,2,3,5,4,3,5,9,7,5,3,2)
++
++x = tuple.index(4)
++
++print(x)
++print("\n")
++
++print("checking if condition in tuples")
++fruits = ("apple", "banana", "grapes", "kiwi")
++
++if "apple" in fruits:
++  print("Yes, 'apple' is in the fruits tuple")
++else:
++    print("apple is not in fruit tuple")
+\ No newline at end of file
+diff --git a/whileloop.py b/whileloop.py
+new file mode 100755
+index 0000000..189e7da
+--- /dev/null
++++ b/whileloop.py
+@@ -0,0 +1,7 @@
++#!/bin/python
++
++a=10
++
++while (a<20):
++  print(a)
++  a +=1
+-- 
+2.25.1
+

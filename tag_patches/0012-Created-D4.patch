@@ -1,0 +1,20 @@
+From b23e21e9d5fcef4a2b80726c5e171ea759440a4f Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Tue, 16 Aug 2022 11:31:14 +0530
+Subject: [PATCH 12/28] Created D4
+
+---
+ D1/D4/empty | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 D1/D4/empty
+
+diff --git a/D1/D4/empty b/D1/D4/empty
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/D1/D4/empty
+@@ -0,0 +1 @@
++
+-- 
+2.25.1
+

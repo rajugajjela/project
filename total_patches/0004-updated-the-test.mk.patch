@@ -1,0 +1,21 @@
+From 930daa48578d5f199bb6dedf2823f5666cf980fc Mon Sep 17 00:00:00 2001
+From: rajugajjela <rgajjela@innominds.com>
+Date: Fri, 5 Aug 2022 12:52:44 +0530
+Subject: [PATCH 04/28] updated the test.mk
+
+---
+ scripts/test.mk | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/scripts/test.mk b/scripts/test.mk
+index 2f153e1..fa88db5 100644
+--- a/scripts/test.mk
++++ b/scripts/test.mk
+@@ -1,3 +1,4 @@
++
+ LOCAL_PRIVILEGED_MODULE := true
+ 
+ LOCAL_MODULE_SUFFIX := .apk
+-- 
+2.25.1
+

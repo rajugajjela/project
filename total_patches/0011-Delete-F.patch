@@ -1,0 +1,20 @@
+From 7dc3f67e47e4c43dea318d838fe37be74df12e3d Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Tue, 16 Aug 2022 11:27:08 +0530
+Subject: [PATCH 11/28] Delete F
+
+---
+ D1/D4/F | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 D1/D4/F
+
+diff --git a/D1/D4/F b/D1/D4/F
+deleted file mode 100644
+index 8b13789..0000000
+--- a/D1/D4/F
++++ /dev/null
+@@ -1 +0,0 @@
+-
+-- 
+2.25.1
+

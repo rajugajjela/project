@@ -1,0 +1,21 @@
+From e16ecae326550e463e14e3183d753036808a3a4a Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Mon, 29 Aug 2022 16:38:23 +0530
+Subject: [PATCH 23/28] Delete nani.txt
+
+---
+ nani.txt | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 nani.txt
+
+diff --git a/nani.txt b/nani.txt
+deleted file mode 100644
+index 48505fb..0000000
+--- a/nani.txt
++++ /dev/null
+@@ -1 +0,0 @@
+-hiii nani
+\ No newline at end of file
+-- 
+2.25.1
+

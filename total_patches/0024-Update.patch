@@ -1,0 +1,20 @@
+From 9901e5e0c42bf86f042baded39144bfa40e1d7a3 Mon Sep 17 00:00:00 2001
+From: rajugajjela <rgajjela@innominds.com>
+Date: Mon, 29 Aug 2022 16:45:45 +0530
+Subject: [PATCH 24/28] Update
+
+---
+ nani.txt | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/nani.txt b/nani.txt
+index a38cb6d..78e2ac8 100644
+--- a/nani.txt
++++ b/nani.txt
+@@ -1,2 +1 @@
+-hiii nani
+-hloo "how are you"
++Hiiii
+-- 
+2.25.1
+

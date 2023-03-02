@@ -1,0 +1,20 @@
+commit 1564976ed7c4ea77c0b273a12950cdcaeeb69098
+tree 74e785f967c874c01d3d850c571ecbc1194edc4c
+parent 1c7813c0bb8c70bbe33de89dd145c2b0ec29cc02
+author rajugajjela <rgajjela@innominds.com> 2022-09-07 15:59:59 +0530
+committer rajugajjela <rgajjela@innominds.com> 2022-09-07 15:59:59 +0530
+
+    New things are added
+
+
+:100755 100755 2ef4066446304fe21551b5c587b7cfd46e8102ff facedbdfdde5871c655348eacf4505863969cb5b M      new.sh
+commit 1c7813c0bb8c70bbe33de89dd145c2b0ec29cc02
+tree e71ab01daeb4e0480ab7f72f55b1f40a2d3f25d4
+parent e250dc1ba72eb7c105afee9441aea556a93f21d5
+author rajugajjela <rgajjela@innominds.com> 2022-09-07 15:59:15 +0530
+committer rajugajjela <rgajjela@innominds.com> 2022-09-07 15:59:15 +0530
+
+    Updated
+
+
+:100755 100755 6562bbb52c714b6ae4c369263d3a48cb049a01cb 2ef4066446304fe21551b5c587b7cfd46e8102ff M

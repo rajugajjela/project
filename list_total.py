@@ -9,6 +9,7 @@ list2=['1','2','3','5','4']
 list3=list1+list2
 
 print("Type of list:",type(list1))
+print("Type of list:",type(list2))
 print("list1:",list1)
 print("list2:",list2)
 

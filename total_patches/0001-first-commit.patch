@@ -1,0 +1,30 @@
+From c2a804581bdfe677727aa10b3bc48be45ebebfff Mon Sep 17 00:00:00 2001
+From: rajugajjela <rgajjela@innominds.com>
+Date: Fri, 5 Aug 2022 12:33:17 +0530
+Subject: [PATCH 01/28] first commit
+
+---
+ pop.py | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ create mode 100755 pop.py
+
+diff --git a/pop.py b/pop.py
+new file mode 100755
+index 0000000..5cb9d10
+--- /dev/null
++++ b/pop.py
+@@ -0,0 +1,11 @@
++#!/bin/python
++
++list1=['raju','nani','siddu','ammu']
++
++list2=['1','2','3','5','4']
++
++list1.pop(0)
++print(list1)
++
++list2.pop(3)
++print(list2)
+-- 
+2.25.1
+

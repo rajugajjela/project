@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 
 list1=['raju','nani','siddu','ammu']
 

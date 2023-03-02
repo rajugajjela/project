@@ -1,0 +1,20 @@
+From 739eceb4531d1848fd466217d7b72bf69b0881c3 Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Fri, 5 Aug 2022 12:39:46 +0530
+Subject: [PATCH 2/7] Create test.mk
+
+---
+ scripts/test.mk | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 scripts/test.mk
+
+diff --git a/scripts/test.mk b/scripts/test.mk
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/scripts/test.mk
+@@ -0,0 +1 @@
++
+-- 
+2.25.1
+

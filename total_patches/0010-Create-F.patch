@@ -1,0 +1,20 @@
+From 4c55a391711ebba6681d33b8f88b4a6f0057fe6c Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Tue, 16 Aug 2022 11:26:49 +0530
+Subject: [PATCH 10/28] Create F
+
+---
+ D1/D4/F | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 D1/D4/F
+
+diff --git a/D1/D4/F b/D1/D4/F
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/D1/D4/F
+@@ -0,0 +1 @@
++
+-- 
+2.25.1
+

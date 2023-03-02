@@ -1,0 +1,21 @@
+From 77e95bf4655a90f5a38c323c760f738ccea4c14e Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Tue, 16 Aug 2022 11:25:09 +0530
+Subject: [PATCH 06/28] Create
+ test-image-SECURE-20201210192054_10.rootfs.wic.gz
+
+---
+ D1/test-image-SECURE-20201210192054_10.rootfs.wic.gz | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 D1/test-image-SECURE-20201210192054_10.rootfs.wic.gz
+
+diff --git a/D1/test-image-SECURE-20201210192054_10.rootfs.wic.gz b/D1/test-image-SECURE-20201210192054_10.rootfs.wic.gz
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/D1/test-image-SECURE-20201210192054_10.rootfs.wic.gz
+@@ -0,0 +1 @@
++
+-- 
+2.25.1
+

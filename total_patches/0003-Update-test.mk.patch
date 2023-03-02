@@ -1,0 +1,22 @@
+From d7aa573249578bef79d745c8f987b0db25234076 Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Fri, 5 Aug 2022 12:40:24 +0530
+Subject: [PATCH 03/28] Update test.mk
+
+---
+ scripts/test.mk | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/scripts/test.mk b/scripts/test.mk
+index 8b13789..2f153e1 100644
+--- a/scripts/test.mk
++++ b/scripts/test.mk
+@@ -1 +1,5 @@
++LOCAL_PRIVILEGED_MODULE := true
+ 
++LOCAL_MODULE_SUFFIX := .apk
++
++LOCAL_SRC_FILES     := MS21.0.8.apk
+-- 
+2.25.1
+

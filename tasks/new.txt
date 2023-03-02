@@ -1,0 +1,3 @@
+Hi this is a python script
+I work on functions
+I work onto files

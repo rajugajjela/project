@@ -1,0 +1,35 @@
+From 390094abfadb6ae480b283556da0a7ae817466f0 Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Fri, 2 Sep 2022 11:30:30 +0530
+Subject: [PATCH 25/28] Add files via upload
+
+---
+ task1.py | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+ create mode 100644 task1.py
+
+diff --git a/task1.py b/task1.py
+new file mode 100644
+index 0000000..3c76c2b
+--- /dev/null
++++ b/task1.py
+@@ -0,0 +1,16 @@
++#!/bin/python3
++
++file = open("python.txt", "w")
++file.write("Hi this is a python script\n"
++            "I work on functions\n"
++            "I work onto files")
++
++file = open("python.txt", "r")
++print(file.read())
++# print(file)
++
++file = open("python.txt", "r")
++file1 = open("new.txt", "w")
++for line in file:
++    file1.write(line)
++
+-- 
+2.25.1
+

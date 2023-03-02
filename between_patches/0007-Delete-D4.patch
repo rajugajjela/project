@@ -1,0 +1,20 @@
+From eca56c8868b1dc272e061ad9c134ee6eb8780a9e Mon Sep 17 00:00:00 2001
+From: rajugajjela <104496293+rajugajjela@users.noreply.github.com>
+Date: Tue, 16 Aug 2022 11:25:38 +0530
+Subject: [PATCH 7/7] Delete D4
+
+---
+ D1/D4 | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 D1/D4
+
+diff --git a/D1/D4 b/D1/D4
+deleted file mode 100644
+index 8b13789..0000000
+--- a/D1/D4
++++ /dev/null
+@@ -1 +0,0 @@
+-
+-- 
+2.25.1
+

@@ -1,0 +1,30 @@
+commit e770be09e4f55059e16cfb282f30061aa95ea5c7
+tree 90638e8d2701ba45efc2b02e6238c9bb3f7adfdf
+parent e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+
+    arithematic operation mul will be again added
+
+
+:100755 100755 2a69380c173ac546458548cb772849e510caf3e5 f9dd33a61f4c0a5f7d49fcf0fe8eeb8b1434f776 M	new.sh
+commit e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+tree 61b9446efb8b5acaab04b0e676e39f062484271e
+parent ce1df98d3fcfbaa3701c293fb200877394b16c84
+author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+
+    new.sh will be updated
+
+
+:100755 100755 39ed6f0afd977d246d38eb92da35637f106ba3e0 2a69380c173ac546458548cb772849e510caf3e5 M	new.sh
+commit ce1df98d3fcfbaa3701c293fb200877394b16c84
+tree dbecf48dc768e4587ed2789b0c0d1b4486552a5a
+parent 510dcba69cf4650f304d5a242b2d35fe9a57714d
+author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+
+    arithematic operation mul will be deleted
+
+
+:100755 100755 6507f74e72e6cb08d9e6430087d21c38e632ab4d 39ed6f0afd977d246d38eb92da35637f106ba3e0 M	new.sh
