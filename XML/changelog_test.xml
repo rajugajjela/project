@@ -1,0 +1,112 @@
+<multi-scm-log>
+    <sub-log scm="repo ssh://dummy/manifest.git default.xml manifest">
+        &lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;
+    &lt;list&gt;
+      &lt;hudson.plugins.repo.ChangeLogEntry plugin=&quot;repo@1.14.0&quot;&gt;
+        &lt;path&gt;deivice/dummy&lt;/path&gt;
+        &lt;serverPath&gt;device/qcom/common&lt;/serverPath&gt;
+        &lt;revision&gt;dummy_rev&lt;/revision&gt;
+        &lt;authorName&gt;dummy&lt;/authorName&gt;
+        &lt;authorEmail&gt;author@.com&lt;/authorEmail&gt;
+        &lt;authorDate&gt;Mon, 3 Oct 2022 11:20:21 +0530&lt;/authorDate&gt;
+        &lt;committerName&gt;dummy&lt;/committerName&gt;
+        &lt;committerEmail&gt;author@.com&lt;/committerEmail&gt;
+        &lt;committerDate&gt;Mon, 3 Oct 2022 11:21:27 +0530&lt;/committerDate&gt;
+        &lt;commitText&gt;Revert &amp;quot;Added: test&amp;quot;
+    This reverts commit 45bb6cab4526d58d2e5c2903b9f36451411bc0fe.
+    
+    Change-Id: I7a516ea1a50e54faf6d5b8cf6192ac5b04fdf383
+    &lt;/commitText&gt;
+        &lt;modifiedFiles&gt;
+          &lt;hudson.plugins.repo.ChangeLogEntry_-ModifiedFile&gt;
+            &lt;path&gt;dummy/test&lt;/path&gt;
+            &lt;editType&gt;
+              &lt;name&gt;edit&lt;/name&gt;
+              &lt;description&gt;The file was modified&lt;/description&gt;
+            &lt;/editType&gt;
+          &lt;/hudson.plugins.repo.ChangeLogEntry_-ModifiedFile&gt;
+        &lt;/modifiedFiles&gt;
+      &lt;/hudson.plugins.repo.ChangeLogEntry&gt;
+      &lt;hudson.plugins.repo.ChangeLogEntry plugin=&quot;repo@1.14.0&quot;&gt;
+        &lt;path&gt;kernel/msm-4.19&lt;/path&gt;
+        &lt;serverPath&gt;kernel/caf/msm-4.19&lt;/serverPath&gt;
+        &lt;revision&gt;dummy_rev2&lt;/revision&gt;
+        &lt;authorName&gt;dummy&lt;/authorName&gt;
+        &lt;authorEmail&gt;author@.com&lt;/authorEmail&gt;
+        &lt;authorDate&gt;Mon, 3 Oct 2022 11:01:32 +0530&lt;/authorDate&gt;
+        &lt;committerName&gt;Gerrit Code Review&lt;/committerName&gt;
+        &lt;committerEmail&gt;root@hyd.com&lt;/committerEmail&gt;
+        &lt;committerDate&gt;Mon, 3 Oct 2022 11:01:32 +0530&lt;/committerDate&gt;
+        &lt;commitText&gt;Merge &amp;quot;Changed: dummyl&amp;quot; into btest
+    &lt;/commitText&gt;
+        &lt;modifiedFiles/&gt;
+      &lt;/hudson.plugins.repo.ChangeLogEntry&gt;
+    &lt;/list&gt;
+    </sub-log>
+    <sub-log scm="git https://dummy/_git/Application">
+        <![CDATA[commit e770be09e4f55059e16cfb282f30061aa95ea5c7
+        tree 90638e8d2701ba45efc2b02e6238c9bb3f7adfdf
+        parent e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+        
+            arithematic operation mul will be again added
+        
+        
+        :100755 100755 2a69380c173ac546458548cb772849e510caf3e5 f9dd33a61f4c0a5f7d49fcf0fe8eeb8b1434f776 M      new.sh
+        commit e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+        tree 61b9446efb8b5acaab04b0e676e39f062484271e
+        parent ce1df98d3fcfbaa3701c293fb200877394b16c84
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+        
+            new.sh will be updated
+        
+        
+        :100755 100755 39ed6f0afd977d246d38eb92da35637f106ba3e0 2a69380c173ac546458548cb772849e510caf3e5 M      new.sh
+        commit ce1df98d3fcfbaa3701c293fb200877394b16c84
+        tree dbecf48dc768e4587ed2789b0c0d1b4486552a5a
+        parent 510dcba69cf4650f304d5a242b2d35fe9a57714d
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+        
+            arithematic operation mul will be deleted
+        
+        
+        :100755 100755 6507f74e72e6cb08d9e6430087d21c38e632ab4d 39ed6f0afd977d246d38eb92da35637f106ba3e0 M      new.sh
+        ]]>
+    </sub-log>
+    <sub-log scm="git https://dummy/_git/MApp">
+        <![CDATA[commit e770be09e4f55059e16cfb282f30061aa95ea5c7
+        tree 90638e8d2701ba45efc2b02e6238c9bb3f7adfdf
+        parent e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:46 +0530
+        
+            arithematic operation mul will be again added
+        
+        
+        :100755 100755 2a69380c173ac546458548cb772849e510caf3e5 f9dd33a61f4c0a5f7d49fcf0fe8eeb8b1434f776 M      new.sh
+        commit e9b2b930ddfe3530c90b1b506d01a2af90c71d2a
+        tree 61b9446efb8b5acaab04b0e676e39f062484271e
+        parent ce1df98d3fcfbaa3701c293fb200877394b16c84
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:50:15 +0530
+        
+            new.sh will be updated
+        
+        
+        :100755 100755 39ed6f0afd977d246d38eb92da35637f106ba3e0 2a69380c173ac546458548cb772849e510caf3e5 M      new.sh
+        commit ce1df98d3fcfbaa3701c293fb200877394b16c84
+        tree dbecf48dc768e4587ed2789b0c0d1b4486552a5a
+        parent 510dcba69cf4650f304d5a242b2d35fe9a57714d
+        author rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+        committer rajugajjela <rgajjela@innominds.com> 2022-09-06 14:49:12 +0530
+        
+            arithematic operation mul will be deleted
+        
+        
+        :100755 100755 6507f74e72e6cb08d9e6430087d21c38e632ab4d 39ed6f0afd977d246d38eb92da35637f106ba3e0 M      new.sh
+        ]]>
+    </sub-log>
+</multi-scm-log>

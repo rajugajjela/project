@@ -1,6 +1,6 @@
 #!/bin/python
 
-num =int(input("Enter a number:5"))
+num =int(input("Enter a number:"))
 count=0
 
 for i in range(2, num):

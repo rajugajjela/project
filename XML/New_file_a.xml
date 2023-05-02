@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<list>
+<hudson.plugins.repo.ChangeLogEntry plugin="repo@1.14.0">
+<path>deivice/dummy</path>
+<serverPath>device/qcom/common</serverPath>
+<revision>dummy_rev</revision>
+<authorName>dummy</authorName>
+<authorEmail>author@.com</authorEmail>
+<authorDate>Mon, 3 Oct 2022 11:20:21 +0530</authorDate>
+<committerName>dummy</committerName>
+<committerEmail>author@.com</committerEmail>
+<committerDate>Mon, 3 Oct 2022 11:21:27 +0530</committerDate>
+<commitText>Revert Added: test
+This reverts commit 45bb6cab4526d58d2e5c2903b9f36451411bc0fe.
+Change-Id: I7a516ea1a50e54faf6d5b8cf6192ac5b04fdf383
+</commitText>
+<modifiedFiles>
+<hudson.plugins.repo.ChangeLogEntry_-ModifiedFile>
+<path>dummy/test</path>
+<editType>
+<name>edit</name>
+<description>The file was modified</description>
+</editType>
+</hudson.plugins.repo.ChangeLogEntry_-ModifiedFile>
+</modifiedFiles>
+</hudson.plugins.repo.ChangeLogEntry>
+<hudson.plugins.repo.ChangeLogEntry plugin="repo@1.14.0">
+<path>kernel/msm-4.19</path>
+<serverPath>kernel/caf/msm-4.19</serverPath>
+<revision>dummy_rev2</revision>
+<authorName>dummy</authorName>
+<authorEmail>author@.com</authorEmail>
+<authorDate>Mon, 3 Oct 2022 11:01:32 +0530</authorDate>
+<committerName>Gerrit Code Review</committerName>
+<committerEmail>root@hyd.com</committerEmail>
+<committerDate>Mon, 3 Oct 2022 11:01:32 +0530</committerDate>
+<commitText>Merge Changed: dummyl into btest
+</commitText>
+<modifiedFiles/>
+</hudson.plugins.repo.ChangeLogEntry>
+</list>
